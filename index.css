@@ -106,6 +106,41 @@
     blinkTextCursor 400ms steps(44) infinite normal;
 }
 
+/* proyectos*/
+#proyectos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#proyecto {
+  width: 300px;
+  background-color: red;
+  margin: 10px;
+  padding: 20px;
+  background-color: red;
+  border-radius: 10px;
+  background-color: #2e3030;
+}
+#proyecto h5 {
+  text-align: center;
+}
+#proyecto p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+#proyecto img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#botonProyecto {
+  text-decoration: none;
+  color: white;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
